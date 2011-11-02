@@ -1,0 +1,46 @@
+body {
+	background-color: teal;	
+}
+
+#threads {
+	float: left; 
+	width: 200px; 
+	height: 200px; 
+	border-style: solid; 
+	border-size: 1px; 
+	border-color: green;
+}
+
+#conversation {
+	float: left; 
+	border-style: solid; 
+	border-size: 1px; 
+	border-color: red; 
+	height: 500px; 
+	width: 500px; 
+	overflow-y: scroll;
+}
+
+#newest {
+	float: right; 
+	width: 500px; 
+	height: 200px; 
+	overflow-y: scroll; 
+	border-color: red; 
+	border-size: 2px; 
+	border-style: solid;
+}
+
+.new {
+	border-style: solid; 
+	border-size: 1px; 
+	border-color: green;
+}
+
+.message_1{
+	background-color: gray;
+}
+
+.message_2 {
+	background-color: violet;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="factory.js"></script>
+	<script type="text/javascript" src="asynchronous.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onLoad="pageLoaded();">
+	<div id="container">
+		<div id="threads">
+        </div>
+		<div id="main">
+        	<div id="conversation_header">
+            	<p>Rozmowa z Mayor: </p>
+            </div>
+        	<div id="conversation">
+            </div>
+            <div id="input">
+            	<p>Napisz do Mayor: </p>
+            	<input id="input_text" type="text"/>
+                <input id="input_button" type="button" value="Wyslij"/>
+            </div>
+        </div>
+        <div id="newest">
+        </div>
+    </div>
+</body>
+</html>

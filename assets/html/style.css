@@ -1,0 +1,114 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+	background-color: #71a0d6;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 1024px;
+	margin: auto;
+}
+
+#threads {
+	width: 150px;
+	float: left;
+	overflow-y: scroll;
+	background-color: #ccc;
+}
+
+#threads ul li:hover {
+	background-color: #999;
+}
+
+#main {
+	width: 630px;
+	float: left;
+	overflow: hidden;
+	background-color: #fff;
+	margin-left: 10px;	
+}
+
+#conversation_header {
+	background-color: #CF0;
+}
+
+#conversation {
+	height: 400px; 
+	overflow-y: scroll;
+}
+
+#input {
+	background-color:#CF0;
+}
+
+#input_text {
+	width: 550px; 
+	height: 30px
+}
+
+#input_button {
+	width: 50px;
+}
+
+#newest {
+	float: left; 
+	width: 200px; 
+	background-color: #F90; 
+	height: 500px; 
+	overflow-y: scroll; 
+	margin-left: 10px;
+}
+
+.active {
+	font-weight: bold;
+	color: #9F0;
+}
+
+.message_2 {
+	background-color:#CCC;
+	
+}
+
+.message_1 {
+	background-color:#06F;
+}
+
+.message_time {
+	word-spacing: 5px;
+	
+	font-size: 13px;
+	margin-left: 2px;
+	
+}
+
+.message_body {
+	line-height: 25px;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+.new {
+	border-bottom: solid thin #F33;
+}
+
+.new_from {
+	font-size: 14px;
+}
+
+.new_time {
+	font-size: 13px;
+}
+
+.new_body {
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+.span_new {
+	font-weight: bold;
+}
